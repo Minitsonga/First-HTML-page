@@ -1,0 +1,111 @@
+@font-face 
+{
+    
+    font-family: 'battshionregular';
+    src: url('Battshion-Regular.otf'),
+   		 url('Battshion-Regular.ttf') format('truetype');
+    	
+}
+
+@font-face 
+{
+	font-family: 'lovebeard';
+    src: url('love beard.otf'),
+         url('love beard.ttf') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'extreme';
+    src: url('Extreme.otf'),
+         url('Extreme.ttf') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'antiquecherry';
+    src: url('AntiqueCherry.otf'),
+         url('AntiqueCherry.ttf') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'blacklisted';
+    src: url('Blacklisted.otf'),
+         url('Blacklisted.ttf') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'payback';
+    src: url('Payback.otf'),
+         url('Payback.ttf') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'kindergarten';
+    src: url('kindergarten.otf'),
+         url('kindergarten.ttf') format('truetype');
+}
+
+@font-face 
+{
+	font-family: 'lettersforlearners';
+    src: url('Letters for Learners.otf'),
+         url('Letters for Learners.ttf') format('truetype');
+}
+
+body
+{
+	font-family: lettersforlearners, battshionregular, blacklisted, kindergarten, payback, extreme, antiquecherry, lovebeard, Calibri, Arial;
+	font-size: 1.3em;
+	width: 50%;
+	margin: auto;
+}
+
+h1,.entete
+{
+	text-align: center;
+}
+h2
+{
+	color : brown;
+	
+}
+
+.Photo
+{
+	float: right;
+	
+	border: 2px black solid;
+	box-shadow: 6px 6px 8px black;
+
+}
+
+li
+{
+	list-style: none;
+}
+
+ul ul 
+{
+	display: none;
+
+}
+li:hover ul
+{
+	display: block;
+
+}
+ul ul ul li
+{
+	display: none;
+	
+}
+
+li + li:hover ul li
+{
+	display: block;
+	
+}
